@@ -4,6 +4,7 @@ Classify odometers if they are analog or digital and Read odometers (Mileage Ext
 
 # Setup
 Install TRODO (trodo-v01). 
+-
 download link --> https://data.mendeley.com/datasets/6y8m379mkt/1
 
 
@@ -19,8 +20,11 @@ annotations_path = ""    # pascal voc 1.1 annotations location      "  #### --> 
 
 
 # ---  Before Mileage Extraction  ---
-Determine path
+Determine path 
+-
 groundtruth_path = ""     # groundtruth location  "  #### -->  /trodo-v01/ground truth/groundtruth.json"
+-
 annotations_path = ""     # annotations location  "  #### -->  /trodo-v01/pascal voc 1.1/Annotations"
+-
 images_path = ""          # images location  "  #### -->  /trodo-v01/images"
 ------------------------------------
